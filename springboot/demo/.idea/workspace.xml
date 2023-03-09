@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fc395e4e-4a52-4e07-9f07-b6d2e129d2b7" name="默认变更列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../JAVA/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\JAVA\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2MRBG6SIHGAUgWw5cr6s956vJ96" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/../springboot_05_ssm/src/main/java/com/linzhilong" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springboot_05_ssm/src/main/resources/static" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Facet" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SSM\springboot\springboot_05_ssm\src\main\resources\static" />
+      <recent name="D:\SSM\springboot\springboot_05_ssm\src\main\java\com\linzhilong" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.linzhilong.domain" />
+      <recent name="com.linzhilong.dao" />
+      <recent name="com.linzhilong.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Springboot05SsmApplication">
+    <configuration name="Springboot04Mybatis1ApplicationTests.getById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_04_mybatis1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linzhilong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.linzhilong" />
+      <option name="MAIN_CLASS_NAME" value="com.linzhilong.Springboot04Mybatis1ApplicationTests" />
+      <option name="METHOD_NAME" value="getById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot05SsmApplicationTests.getById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_05_ssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linzhilong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.linzhilong" />
+      <option name="MAIN_CLASS_NAME" value="com.linzhilong.Springboot05SsmApplicationTests" />
+      <option name="METHOD_NAME" value="getById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot01QuickstartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_01_quickstart" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.linzhilong.Springboot01QuickstartApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot02CaseConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_02_case_config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.linzhilong.Springboot02CaseConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot03ReadDataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_03_read_data" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.linzhilong.Springboot03ReadDataApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot04Mybatis1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_04_mybatis1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.linzhilong.Springboot04Mybatis1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot05SsmApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_05_ssm" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.linzhilong.Springboot05SsmApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Springboot05SsmApplicationTests.getById" />
+        <item itemvalue="JUnit.Springboot04Mybatis1ApplicationTests.getById" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="fc395e4e-4a52-4e07-9f07-b6d2e129d2b7" name="默认变更列表" comment="" />
+      <created>1677720421275</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677720421275</updated>
+      <workItem from="1677720422949" duration="2843000" />
+      <workItem from="1677727892810" duration="728000" />
+      <workItem from="1677833495884" duration="7572000" />
+      <workItem from="1678179128218" duration="2432000" />
+      <workItem from="1678186680912" duration="37000" />
+      <workItem from="1678192971810" duration="971000" />
+      <workItem from="1678243280452" duration="3548000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

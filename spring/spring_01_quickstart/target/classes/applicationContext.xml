@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
+
+    <!--1.导入spring的坐标spring-context, 对应版本5.2.10.RELEASE-->
+
+    <!--2.配置文件Bean-->
+    <!--
+        bean标签配置bean
+        id属性标识给bean起名字
+        class属性标识给bean定义类型
+    -->
+    <bean id="bookDao" class="BookDaoImpl"/>
+
+    <bean id="bookService" class="com.linzhilong.service.impl.BookService">
+        <!--7.配置service与dao的关系-->
+        <!--property标签表示配置当前bean的属性
+        name表示配置哪一个具体的属性
+        ref属性表示参照哪一个bean-->
+        <property name="bd" ref="bookDao"></property>
+    </bean>
+</beans>

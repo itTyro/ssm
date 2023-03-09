@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="bookDao" class="com.linzhilong.dao.impl.BookDaoImpl"/>
+
+    <bean id="bookService" class="com.linzhilong.service.impl.BookServiceImpl">
+        <constructor-arg name="bookDao" ref="bookDao"/>
+    </bean>
+
+    <!--<bean id="orderService" class="com.linzhilong.service.impl.OrderServiceImpl">
+        <constructor-arg name="name" value="zhi"/>
+        <constructor-arg name="age" value="20"/>
+    </bean>-->
+
+    <!--
+        根据数据类型
+        <bean id="orderService" class="com.linzhilong.service.impl.OrderServiceImpl">
+        <constructor-arg type="java.lang.String" value="zhi"/>
+        <constructor-arg type="int" value="21"/>
+    </bean>-->
+
+    <!--根据参数的位置-->
+    <bean id="orderService" class="com.linzhilong.service.impl.OrderServiceImpl">
+        <constructor-arg index="0" value="zhi"/>
+        <constructor-arg index="1" value="22"/>
+    </bean>
+</beans>

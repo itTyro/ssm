@@ -1,0 +1,12 @@
+三月 01, 2023 8:44:27 下午 org.apache.karaf.main.Main launch
+信息: Installing and starting initial bundles
+三月 01, 2023 8:44:28 下午 org.apache.karaf.main.Main launch
+信息: All initial bundles installed and set to start
+三月 01, 2023 8:44:28 下午 org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+信息: Lock acquired. Setting startlevel to 100
+三月 02, 2023 8:31:45 上午 org.apache.karaf.main.Main launch
+信息: Installing and starting initial bundles
+三月 02, 2023 8:31:49 上午 org.apache.karaf.main.Main launch
+信息: All initial bundles installed and set to start
+三月 02, 2023 8:31:50 上午 org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+信息: Lock acquired. Setting startlevel to 100

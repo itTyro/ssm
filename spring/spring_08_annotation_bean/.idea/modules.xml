@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring_08_annotation_bean.iml" filepath="$PROJECT_DIR$/spring_08_annotation_bean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring_09_annotation_bean_manager/spring_09_annotation_bean_manager.iml" filepath="$PROJECT_DIR$/../spring_09_annotation_bean_manager/spring_09_annotation_bean_manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring_10_annotation_di/spring_10_annotation_di.iml" filepath="$PROJECT_DIR$/../spring_10_annotation_di/spring_10_annotation_di.iml" />
+    </modules>
+  </component>
+</project>

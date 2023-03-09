@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="dog" class="com.zjx.Dog">
+        <property name="name" value="哈士奇"/>
+    </bean>
+
+    <bean id="cat" class="com.zjx.Cat">
+        <property name="name" value="布偶"/>
+    </bean>
+
+    <bean id="person" class="com.zjx.Person">
+        <property name="name" value="小李"/>
+        <property name="cat" ref="cat"/>
+        <property name="dog" ref="dog"/>
+     </bean>
+</beans>

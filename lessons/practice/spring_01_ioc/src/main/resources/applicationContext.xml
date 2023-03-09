@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="apple01" class="com.linzhilong.pojo.Apple">
+        <property name="color" value="red"/>
+        <property name="name" value="红富士"/>
+        <property name="origin" value="欧洲"/>
+
+    </bean>
+    <bean id="apple02" class="com.linzhilong.pojo.Apple">
+        <property name="color" value="cyan"/>
+        <property name="name" value="大帅比"/>
+        <property name="origin" value="中东"/>
+
+    </bean>
+    <bean id="apple03" class="com.linzhilong.pojo.Apple">
+        <property name="color" value="yellow"/>
+        <property name="name" value="金帅"/>
+        <property name="origin" value="中国"/>
+
+    </bean>
+
+    <bean id="child" class="com.linzhilong.pojo.Child">
+        <property name="name" value="laly"/>
+        <property name="apple" ref="apple01"/>
+    </bean>
+</beans>

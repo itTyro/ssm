@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="bookDao" class="com.linzhilong.dao.impl.BookDaoImpl"/>
+
+    <!--<bean id="bookService" class="com.linzhilong.service.impl.BookServiceImpl">
+        <property name="bookDao" ref="bookDao"></property>
+
+    </bean>
+-->
+
+    <bean id="bookService" class="com.linzhilong.service.impl.BookServiceImpl" autowire="byType">
+
+    </bean>
+
+    <bean id="orderService" class="com.linzhilong.service.impl.OrderServiceImpl">
+        <property name="name" value="林"/>
+        <property name="age" value="19"/>
+    </bean>
+</beans>
